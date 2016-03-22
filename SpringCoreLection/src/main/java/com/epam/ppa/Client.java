@@ -2,6 +2,12 @@ package com.epam.ppa;
 
 public class Client {
     private String id;
+    private String fullname;
+
+    public Client(String id, String fullname){
+        this.id=id;
+        this.fullname=fullname;
+    }
 
     public String getFullname() {
         return fullname;
@@ -18,7 +24,5 @@ public class Client {
     public void setId(String id) {
         this.id = id;
     }
-
-    private String fullname;
 
 }
